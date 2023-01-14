@@ -1,0 +1,42 @@
+/* Write your CSS here */
+.result-match-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  background-color: #1e293b;
+  width: 28%;
+  border-radius: 8px;
+  padding: 30px;
+  height: 400px;
+  text-align: center;
+  margin: 10px 0px;
+}
+.opp-team-logo {
+  height: 120px;
+  width: 120px;
+}
+.win {
+  color: #18ed66;
+}
+.lost {
+  color: #e31a1a;
+}
+.result {
+  font-size: 14px;
+}
+.result-box-heading {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+@media (width < 768px) {
+  .opp-team-logo {
+    height: 80px;
+    width: 80px;
+  }
+  .result-box-heading {
+    font-size: 14px;
+  }
+}

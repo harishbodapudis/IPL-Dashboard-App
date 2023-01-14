@@ -1,0 +1,59 @@
+/* Write your CSS here */
+
+.match-details-page {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.latest-match-container {
+  font-family: Bree Serif;
+  color: #ffffff;
+  width: 90%;
+  margin: auto;
+}
+.team-banner {
+  height: 35vh;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.matches-result-container {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
+.section-name {
+  font-size: 18px;
+}
+.rcb {
+  background-image: linear-gradient(to bottom, #a4261d, #475569);
+}
+.kxp {
+  background-image: linear-gradient(to bottom, #d91c1f, #475569);
+}
+.csk {
+  background-image: linear-gradient(to bottom, #f7db00, #475569);
+}
+.rr {
+  background-image: linear-gradient(to bottom, #4f5db0, #475569);
+}
+.mi {
+  background-image: linear-gradient(to bottom, #13418b, #475569);
+}
+.sh {
+  background-image: linear-gradient(to bottom, #f26d22, #475569);
+}
+.dc {
+  background-image: linear-gradient(to bottom, #5755a7, #475569);
+}
+.kkr {
+  background-image: linear-gradient(to bottom, #0f172a, #475569);
+}
