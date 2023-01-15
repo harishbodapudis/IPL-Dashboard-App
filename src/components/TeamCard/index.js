@@ -6,7 +6,7 @@ const TeamCard = props => {
   const {teamsListData} = props
   const {id, teamImageUrl, name} = teamsListData
   console.log(id)
-  const linkName = `./team-matches/${id}`
+  const linkName = `/team-matches/${id}`
   return (
     <li className="team-card-container">
       <Link to={linkName} className="link-text">

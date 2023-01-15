@@ -40,7 +40,7 @@ class Home extends Component {
         </div>
         <div className="cards-list">
           {loader ? (
-            <div>
+            <div testid="loader">
               <Loader type="Oval" color="#ffffff" height={50} width={50} />
             </div>
           ) : (

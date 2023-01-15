@@ -84,7 +84,7 @@ class TeamMatches extends Component {
     return (
       <div className={`match-details-page ${bgCode}`}>
         {loader ? (
-          <div>
+          <div testid="loader">
             <Loader type="Oval" color="#ffffff" height={50} width={50} />
           </div>
         ) : (
